@@ -1,5 +1,8 @@
 import React from 'react'
 
+//import image
+import placeholder from '../img/placeholder.jpg'
+
 export default function About() {
   return (
     <section id="about">
@@ -34,7 +37,7 @@ export default function About() {
         <img
           className="object-cover object-center rounded"
           alt="hero"
-          src="C:\Programming\React Portfolio + TailwindCSS\portfolio_react_tailwind\public\placeholder.jpg"
+          src={placeholder}
         />
       </div>
     </div>
