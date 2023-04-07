@@ -3,10 +3,9 @@ import React from "react";
 //Components
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Content from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testemonials from "./components/Testemonials";
+import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 
 
@@ -17,7 +16,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
-      <Testemonials />
+      <Testimonials />
       <Contact />
     </main>
   );
