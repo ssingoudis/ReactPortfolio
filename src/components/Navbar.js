@@ -1,10 +1,7 @@
 import React from 'react'
 import { ArrowRightIcon } from "@heroicons/react/24/solid"
 
-export default function Navbar() {
-
-  //function to adjust anchor tags position by the height of the navbar and scroll smooth
-  const handleJump = (e) => {
+  export const handleJump = (e) => {
     e.preventDefault();
 
     const element = document.querySelector(e.target.hash);
@@ -16,6 +13,22 @@ export default function Navbar() {
       behavior: 'smooth'
     });
   };
+
+export default function Navbar() {
+
+  //function to adjust anchor tags position by the height of the navbar and scroll smooth
+  // const handleJump = (e) => {
+  //   e.preventDefault();
+
+  //   const element = document.querySelector(e.target.hash);
+  //   const offset = parseInt(e.target.dataset.offset, 10) || 0;
+  //   const elementPosition = element.offsetTop - offset;
+
+  //   window.scrollTo({
+  //     top: elementPosition,
+  //     behavior: 'smooth'
+  //   });
+  // };
 
   return (
     <header className="bg-gray-800 md:sticky top-0 z-20">

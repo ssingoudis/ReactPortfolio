@@ -1,5 +1,8 @@
 import React from 'react'
 
+//import function
+import { handleJump } from './Navbar'
+
 //import image
 import placeholder from '../img/placeholder.jpg'
 
@@ -21,11 +24,15 @@ export default function About() {
         <div className="flex justify-center">
           <a
             href="#contact"
+            onClick={handleJump}
+            data-offset="50"
             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
             Work With Me
           </a>
           <a
             href="#projects"
+            onClick={handleJump}
+            data-offset="50"
             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
             See My Past Work
           </a>
