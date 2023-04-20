@@ -2,8 +2,8 @@
 export const projects = [
     {
       id: 1,
-      title: "React Reserve",
-      subtitle: "HTML CSS JS",
+      title: "Portfolio Website",
+      subtitle: "HTML, CSS, JS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
@@ -11,8 +11,8 @@ export const projects = [
     },
     {
       id: 2,
-      title: "React Tracks",
-      subtitle: "HTML CSS JS",
+      title: "Recipe Application",
+      subtitle: "ReactJS, ReactRouter",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
@@ -20,8 +20,8 @@ export const projects = [
     },
     {
       id: 3,
-      title: "DevChat",
-      subtitle: "HTML CSS JS",
+      title: "Memory App",
+      subtitle: "ReactJS, React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
@@ -29,13 +29,22 @@ export const projects = [
     },
     {
       id: 4,
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Restaurant Website",
+      subtitle: "Wordpress, Elementor, Responsive Design",
+      description:
+        "Taverna Mythos!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "https://i.ibb.co/0fkK8rW/Taverna-Mythos-auf-IPhone-6-Picture.jpg",
+      link: "https://taverna-mythos-emmendingen.com"
+    },
+    {
+      id: 5,
+      title: "Hotel Website",
+      subtitle: "Wordpress, WooCommerce",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
+      image: "https://i.ibb.co/2sc3bzM/smartmockups-lg8r9do2.jpg",
       link: "https://testhtml.com"
-    },
+    }
   ];
 
   export const skills = [
