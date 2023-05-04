@@ -6,8 +6,8 @@ export const projects = [
       subtitle: "HTML, CSS, JS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
-      link: "https://testhtml.com"
+      image: "https://i.ibb.co/2sc3bzM/smartmockups-lg8r9do2.jpg",
+      link: "https://tailwindcss-portfolio.singoudis.dev/"
     },
     {
       id: 2,
@@ -15,8 +15,8 @@ export const projects = [
       subtitle: "ReactJS, ReactRouter",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
-      link: "https://testhtml.com"
+      image: "https://i.ibb.co/2sc3bzM/smartmockups-lg8r9do2.jpg",
+      link: "https://tailwindcss-portfolio.singoudis.dev/"
     },
     {
       id: 3,
@@ -24,26 +24,17 @@ export const projects = [
       subtitle: "ReactJS, React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://botschafter-des-handwerks.de/wp-content/uploads/2020/02/Musterbild-4x3_rosa.jpg",
-      link: "https://testhtml.com"
+      image: "https://i.ibb.co/2sc3bzM/smartmockups-lg8r9do2.jpg",
+      link: "https://tailwindcss-portfolio.singoudis.dev/"
     },
     {
       id: 4,
-      title: "Restaurant Website",
-      subtitle: "Wordpress, Elementor, Responsive Design",
-      description:
-        "Taverna Mythos!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://i.ibb.co/0fkK8rW/Taverna-Mythos-auf-IPhone-6-Picture.jpg",
-      link: "https://taverna-mythos-emmendingen.com"
-    },
-    {
-      id: 5,
       title: "Hotel Website",
       subtitle: "Wordpress, WooCommerce",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "https://i.ibb.co/2sc3bzM/smartmockups-lg8r9do2.jpg",
-      link: "https://testhtml.com"
+      link: "https://tailwindcss-portfolio.singoudis.dev/"
     }
   ];
 
@@ -58,21 +49,21 @@ export const projects = [
 
   export const testimonials = [
     {
-      name: 'Tester',
-      company: 'textcompany1',
-      quote: 'Hi sportsfreund',
+      name: 'Frank',
+      company: 'AppTec',
+      quote: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus eum quo voluptas aspernatur accusantium distinctio possimus est.',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOgTFnxc2uHB6W6m_NacMzHI6mCzEk-tagLAehkv2szkyEBvoNXdKcZxmos2LMPNueQE&usqp=CAU'
     },
     {
-      name: 'Tester',
-      company: 'textcompany1',
-      quote: 'Hi sportsfreund',
+      name: 'Thomas',
+      company: 'Design LLC',
+      quote: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus eum quo voluptas aspernatur accusantium distinctio possimus est.',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOgTFnxc2uHB6W6m_NacMzHI6mCzEk-tagLAehkv2szkyEBvoNXdKcZxmos2LMPNueQE&usqp=CAU'
     },
     {
-      name: 'Tester',
-      company: 'textcompany1',
-      quote: 'Hi sportsfreund',
+      name: 'Rajid',
+      company: 'SampleCompany',
+      quote: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus eum quo voluptas aspernatur accusantium distinctio possimus est.',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoOgTFnxc2uHB6W6m_NacMzHI6mCzEk-tagLAehkv2szkyEBvoNXdKcZxmos2LMPNueQE&usqp=CAU'
     }
   ]
